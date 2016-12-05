@@ -1,11 +1,11 @@
 # Export-wiznote
-批量导出为知笔记中的makedown文件
+批量导出为知笔记中的markdown文件
 
 使用环境：window+python2/3
 
-使用要求：为知笔记的文件必须都是makedown文件或者纯文本文件
+使用要求：为知笔记的文件必须都是markdown文件或者纯文本文件
 
-         建议使用Editor.md来编辑makedown文件 避免出错
+         建议使用Editor.md来编辑markdown文件 避免出错
 
 使用操作：使用前需修改ExpertToMd.py 三个参数
 
