@@ -54,9 +54,10 @@ def chuli(new_file_path):
             md = md.encode('utf-8')
             makedown.write(md)
             makedown.close()
+            html.close()
             chmod(new_tmp_path, S_IWRITE)
-            rmtree(export_path)
-            
+            remove(new_tmp_path)
+
         else:
             chuli(new_ziw_path)
 
